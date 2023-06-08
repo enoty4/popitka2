@@ -1,0 +1,40 @@
+body{
+    margin: 0%;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+    height: 5%;
+    background-color: rgb(28, 84, 187);
+    padding: 0.5%;
+}
+
+.texts{
+    display: flex;
+    flex-direction: row;
+}
+
+.texts a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: Arial;
+    color:rgba(202, 202, 202, 0.829);
+    font-weight: bold;
+    font-size: large;
+}
+
+.texts a:hover{
+    background-color: rgba(22, 19, 19, 0.829);
+    color: white;
+}
+.gayhub{
+    display: flex;
+    font-family: Arial;
+    color: aliceblue;
+    font-size: 25px;
+    justify-content: start;
+}
